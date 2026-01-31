@@ -1,6 +1,6 @@
 # Harbor Box
 
-A hardened VPN router built with Rust
+A hardened VPN router built with Rust 🦀
 
 ## Key Capabilities
 
@@ -17,22 +17,22 @@ Harbor Box is composed of a small set of purpose-built services written in pure 
 
 ### Core Networking
 
-- **harbor-goose**: IKEv2/IPsec implementation (RFC 7296, RFC 4301)
-- **harbor-bgp**: BGP-4 routing service (RFC 4271) with route filtering, AS-path manipulation, and multi-hop peering support
+- **harbor-goose** 🪿 IKEv2/IPsec implementation (RFC 7296, RFC 4301)
+- **harbor-bgp** BGP-4 routing service (RFC 4271) with route filtering, AS-path manipulation, and multi-hop peering support
 
 ### System Control
 
-- **harbor-network**: Linux network interface management via netlink, including IP configuration and VLAN tagging
-- **harbor-firewall**: zone-based security policies implemented with nftables, supporting IPv4 and IPv6 with stateful connection tracking
+- **harbor-network** Linux network interface management via netlink, including IP configuration and VLAN tagging
+- **harbor-firewall** zone-based security policies implemented with nftables, supporting IPv4 and IPv6 with stateful connection tracking
 
 ### Infrastructure Services
 
-- **harbor-dhcp**: DHCPv4 address allocation (RFC 2131)
-- **harbor-dns**: recursive DNS resolution with configurable forwarding
+- **harbor-dhcp** DHCPv4 address allocation (RFC 2131)
+- **harbor-dns** recursive DNS resolution with configurable forwarding
 
 ### Management
 
-- **harbor-manager**: device configuration, lifecycle management, and fleet-level control interface
+- **harbor-manager** device configuration, lifecycle management, and fleet-level control interface
 
 ## Licensing
 
